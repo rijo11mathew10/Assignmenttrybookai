@@ -9,9 +9,9 @@ function ThemeToggle() {
     setTheme(newTheme);
   };
   if (theme === "light") {
-    return <Moon onClick={() => toggleTheme("dark")} />;
+    return <Moon role="button" onClick={() => toggleTheme("dark")} />;
   }
 
-  return <Sun onClick={() => toggleTheme("light")} />;
+  return <Sun role="button" onClick={() => toggleTheme("light")} />;
 }
 export default ThemeToggle;
