@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary-color: #6366f1;
+    --secondary-color: #a5b4fc;
+    --background-color: #0f172a;
+    --text-color: #e2e8f0;
+    --accent-color: #22d3ee;
+    --code-background: #1e293b;
+    --section-background: #1e293b;
+    --border-color: #334155;
+  }
+  .dark {
+    --primary-color: #4c51bf; /* A slightly darker shade of light purple */
+    --secondary-color: #d0d4ff; /* A soft light periwinkle */
+    --background-color: #f8fafc; /* Very light gray/off-white */
+    --text-color: #1f2937; /* Dark charcoal for good contrast */
+    --accent-color: #0ea5e9; /* Brighter cyan/blue for accents */
+    --code-background: #e2e8f0; /* Light slate gray for code blocks */
+    --section-background: #f1f5f9; /* Very light gray for section backgrounds */
+    --border-color: #cbd5e1;
+  }
+}
